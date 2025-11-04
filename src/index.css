@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FFFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    line-height: inherit;
+    cursor: pointer;
+    
+}
+
+.container{
+    padding-left: 5%;
+    padding-right: 45%;
+
+}
