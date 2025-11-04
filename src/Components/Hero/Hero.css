@@ -1,5 +1,50 @@
 .hero{
     width: 100%;
     height: 100vh;
-    background-image: url('../../assets/images/hero.jpg');
+    background-image: url('../../assets/images/hero.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+
+}
+
+.hero-overlay{
+    color: white;
+    max-width: 500px;
+}
+
+.hero-overlay p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: regular;
+}
+
+.hero-overlay h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.hero-overlay h2{
+    font-size: 40px;    
+    font-weight: 300;
+}
+
+.hero-btn{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 16px 70px;
+    font-size: 16px;
+    font-weight: light;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 20px;
+}
+
+.hero-btn:hover{
+    background: gradient(90deg, #E52E71 0%, #FF8A00 100%);
 }
